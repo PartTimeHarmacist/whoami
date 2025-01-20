@@ -3,6 +3,11 @@ from sqlalchemy import text
 from collections.abc import Sequence
 
 
+st.set_page_config(
+    page_title="whoami",
+    initial_sidebar_state="collapsed"
+)
+
 conn = st.connection("postgresql", type="sql")
 
 @st.fragment
