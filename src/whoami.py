@@ -21,7 +21,7 @@ def submit_feedback() -> None:
         feedback_status.progress(100, "Feedback sent!")
     return
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=300)
 @st.fragment
 def retrieve_qanda() -> Sequence:
     with conn.session as s:
@@ -31,7 +31,7 @@ def retrieve_qanda() -> Sequence:
         s.commit()
     return rtn.fetchall()
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=300)
 @st.fragment
 def retrieve_headers() -> Sequence:
     with conn.session as s:
