@@ -97,8 +97,8 @@ with tab2:
     - Private Gitea Deployment
         - If you take a look at my github, you'll notice that, aside from the _very professional_ username choice,
         there's not a lot of code out there.  I prefer to host my code on my own infrastructure, and I like having
-        alternatives to big sites like github.  If anything, it's part of my ever-growing list of homelab deployed
-        services.
+        alternatives to big sites like github.  It also serves as my docker image repository that I have full control
+        over.
     - Private Minio (S3) Deployment
         - This doesn't serve much use right now, but I do have functioning connections in Airflow to it.  I want to 
         learn how to use Minio as a base for Apache Iceberg and thus, Apache Spark; but that is going to take some time.
