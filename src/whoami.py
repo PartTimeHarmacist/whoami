@@ -69,7 +69,7 @@ with tab2:
     sparse professional portfolio that I can share elsewhere.  With that said, I've come up with a few projects that I
      actually get some use from and I can share here, which you'll find below.
      
-    - [Warframe Drops Application](https://warframe.datadumplings.cloud) - [[source]]()
+    - [Warframe Drops Application](https://warframe.datadumplings.cloud) - [[source]](https://github.com/PartTimeHarmacist/whoami/blob/main/src/pages/Warframe_Drops_Application.py)
         - This is at the top of the list, because it's fully functional and useful to me and some friends.
         It's a simple data powered application, utilizing a data pipeline I set up in my Apache Airflow instance,
         that offers a way to quickly and easily track down what in-game items (Warframes, Items, etc) I want to locate,
