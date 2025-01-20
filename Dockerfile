@@ -15,10 +15,10 @@ RUN rm -rf /var/lib/apt/lists/*
 USER appuser
 WORKDIR /home/appuser
 
-RUN git clone https://github.com/PartTimeHarmacist/whoami.git .
+RUN git clone https://github.com/PartTimeHarmacist/whoami.git app
 
 RUN pip install -r requirements.txt
 
 EXPOSE 8501
 
-CMD streamlit run ${HOME}/src/whoami.py
+CMD streamlit run ${HOME}/app/src/whoami.py
