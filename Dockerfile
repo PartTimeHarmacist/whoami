@@ -17,7 +17,7 @@ WORKDIR /home/appuser
 
 RUN git clone https://github.com/PartTimeHarmacist/whoami.git app
 
-RUN pip install -r requirements.txt
+RUN pip install -r app/requirements.txt
 
 EXPOSE 8501
 
