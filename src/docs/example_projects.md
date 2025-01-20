@@ -12,11 +12,10 @@ sparse professional portfolio that I can share elsewhere.  With that said, I've 
     It's a simple data powered application, utilizing a data pipeline I set up in my Apache Airflow instance,
     that offers a way to quickly and easily track down what in-game items (Warframes, Items, etc) I want to locate,
     and how to best acquire them.
-- [Apache Airflow Deployment](https://airflow.datadumplings.cloud)
+- [Apache Airflow Deployment](https://airflow.datadumplings.cloud) - [[source]](https://github.com/PartTimeHarmacist/datadumplings_dags)
     - My own personal Apache Airflow instance.  It gets some use mainly because I know how Airflow works already,
     so I can further my knowledge with Kubernetes easily by tinkering with this deployment.  At the time of writing,
     it also serves to run the only personal ETL I have set up, which powers the above Streamlit application.
-    [[source]](https://github.com/PartTimeHarmacist/datadumplings_dags)
     - The instance is visible, but restricted to try and avoid anything crazy.  If you'd like to view source code
     or more details than just the list of dags, you can sign in with github powered OAuth2 if you'd like.
 - [Apache Superset Deployment](https://superset.datadumplings.cloud)
