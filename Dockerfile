@@ -10,10 +10,12 @@ RUN apt-get update && apt-get install -y \
     software-properties-common \
     git
 
+RUN rm -rf /var/lib/apt/lists/*
+
 USER appuser
 WORKDIR /home/appuser
 
-RUN git clone https://github.com/PartTimeHarmacist/whoami.git app
+RUN git clone https://github.com/PartTimeHarmacist/whoami.git .
 
 RUN pip install -r requirements.txt
 
