@@ -13,8 +13,7 @@ just a bit more versatile later down the line.
 
 The `Greeting`, `About Me` and `Questions and Answers` sections are all dynamically loaded
 from a postgres database in my kubernetes cluster.  The `Example Projects` section is the only
-section that isn't loaded from a database, as it's a bit more involved than a simple line or two of text.  In the future
-it will likely become a markdown file that is read from instead.
+section that isn't loaded from a database, as it's a bit more involved than a simple line or two of text.
 
 The real code and examples are all in the `Example Projects` links though.  Right now, it lists out the following:
 - [Warframe Drops Application](https://warframe.datadumplings.cloud) - [[source]](https://github.com/PartTimeHarmacist/whoami/blob/main/src/pages/Warframe_Drops_Application.py)
