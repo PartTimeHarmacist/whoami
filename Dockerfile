@@ -19,4 +19,4 @@ RUN pip install -r requirements.txt
 
 EXPOSE 8501
 
-CMD streamlit run ${HOME}/app/whoami.py
+CMD streamlit run ${HOME}/src/whoami.py
