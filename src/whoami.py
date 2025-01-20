@@ -70,7 +70,7 @@ with tab1:
 
 with tab2:
     st.header("Example Projects")
-    example_projects_blurb = retrieve_doc_file(Path("docs/example_projects.md"))
+    example_projects_blurb = retrieve_doc_file(Path("/home/appuser/repo/src/docs/example_projects.md"))
     st.markdown(example_projects_blurb)
     st.write("---")
 
